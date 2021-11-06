@@ -17,9 +17,7 @@
 	function loadImage (imageData, logoImageData, logoImageDataB, logoImageDataC, imageIni, imageIniB, imageIniC, guidelineflag){
 		
 		var baseImg = new Image();
-		var canvas = document.getElementById('canvas');
-		$('#alert').text('キャンバスに書き込んでいます');
-		baseImg.src = logoImageData;
+		baseImg.src = './frame.png';
 		$('#alert').text('URL化しています');
 		img = new createjs.Bitmap(baseImg);
 		$('#result').attr({
