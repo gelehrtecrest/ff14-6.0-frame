@@ -16,7 +16,11 @@
 	//画像ロード
 	function loadImage (imageData, logoImageData, logoImageDataB, logoImageDataC, imageIni, imageIniB, imageIniC, guidelineflag){
 		
-		baseImg.src = 'https://gelehrtecrest.github.io/ff14-6.0-frame/frame.png';
+		var baseImg = new Image();
+		var canvas = document.getElementById('canvas');
+		$('#alert').text('キャンバスに書き込んでいます');
+		baseImg.src = logoImageData;
+		$('#alert').text('URL化しています');
 		img = new createjs.Bitmap(baseImg);
 		$('#result').attr({
 			'width': baseImg.width,
@@ -117,7 +121,7 @@
 		//if(flag_b){
 			//$('#logourl').val('./default.png');
 			$('#guidelineurl').val('./guideline.svg');
-			loadlogocanvas('./default.png', false);
+			loadlogocanvas('./frame.png', false);
 		//}
 	
 		//ロゴURL変更時の処理
