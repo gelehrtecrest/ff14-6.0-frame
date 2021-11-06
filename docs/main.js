@@ -41,10 +41,16 @@
 		
 
 		//ステージ生成
-		stage.addChild(img2);
 		if(img != null){
 			try{
-				img = modifyImage(img, imageIni);
+				img2 = modifyImage(img2, imageIni);
+				stage.addChild(img2);
+			} catch(e){
+			}
+		}
+
+		if(img != null){
+			try{
 				stage.addChild(img);
 			} catch(e){
 			}
