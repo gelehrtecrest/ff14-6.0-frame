@@ -68,6 +68,39 @@
 			<dd><span><img src="" id="preview"></span><dd>
 			<dd><input type="file" accept="image/*" id="getfile"><dd>
 			</dl>
+			<br />
+			<div class="alert alert-success lang" language="ja">Step3.(必須) 合成ボタンを押すとロゴが貼り付けられます。ロゴの位置・サイズも変更できます。</div>
+			<div id="alert" class="alert alert-warning" role="alert"></div>
+			<div class="container">
+				<div class="row">
+					<button id="update" class="col-sm-2 editgenerator btn btn-primary">
+						<div class="lang editgenerator" language="ja">合成</div>
+						<div class="lang editgenerator" language="en" style="display:none">Put</div>
+						<div class="lang editgenerator" language="ch" style="display:none">放置</div>
+						<div class="lang editgenerator" language="kr" style="display:none">넣기</div>
+					</button>
+					<button id="reset" class="col-sm-2 editgenerator btn btn-warning">
+						<div class="lang editgenerator" language="ja">リセット</div>
+						<div class="lang editgenerator" language="en" style="display:none">Reset</div>
+						<div class="lang editgenerator" language="ch" style="display:none">重启</div>
+						<div class="lang editgenerator" language="kr" style="display:none">다시 놓기</div>
+					</button>
+					<button id="left" class="col-sm-2 editgenerator btn btn-default">←</button>
+					<button id="up" class="col-sm-2 editgenerator btn btn-default">↑</button>
+					<button id="down" class="col-sm-2 editgenerator btn btn-default">↓</button>
+					<button id="right" class="col-sm-2 editgenerator btn btn-default">→</button>
+					<button id="zoomin" class="col-sm-2 editgenerator btn btn-default glyphicon glyphicon-resize-full"></button>
+					<button id="zoomout" class="col-sm-2 editgenerator btn btn-default glyphicon glyphicon-resize-small"></button>
+					<button id="rotation_l" class="col-sm-2 editgenerator btn btn-default glyphicon glyphicon-repeat" style="transform: scale(-1, 1);"></button>
+					<button id="rotation_r" class="col-sm-2 editgenerator btn btn-default glyphicon glyphicon-repeat"></button>
+					<button id="alpha_down" class="col-sm-2 editgenerator btn btn-default">
+						<div id="alpha_down" class="lang editgenerator" language="ja">薄く</div>
+					</button>
+					<button id="alpha_up" disabled class="col-sm-2 editgenerator btn btn-default">
+						<div id="alpha_up" class="lang editgenerator" language="ja">濃く</div>
+					</button>
+				</div>
+			</div>
 			<hr />
 			<p>AD</p>
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
