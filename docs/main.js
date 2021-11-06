@@ -204,9 +204,9 @@
 			logoImageData : null,
 			guidelineImageData : null,
 			resetImage : function(){
-				this.xPos = 2;
-				this.yPos = 2;
-				this.Scale = -5;
+				this.xPos = 0;
+				this.yPos = 0;
+				this.Scale = 0;
 				this.rotation = 0;
 				this.alpha = 1.0;
 			},
