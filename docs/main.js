@@ -193,9 +193,9 @@
 
 		//読込画像のオブジェクト
 		var imageIni = {
-			xPos : 2,
-			yPos : 2,
-			Scale : -5,
+			xPos : 0,
+			yPos : 0,
+			Scale : 0,
 			rotation : 0,
 			alpha : 1.0,
 			ScaleXFlag : 1.0,
