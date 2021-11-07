@@ -809,7 +809,7 @@
 		write_settingurl(imageIni);
 
 		//Canvas Download
-		$('#btnDownload').on("click", function() {
+		$('.btnDownload').on("click", function() {
 			alertmeg('ダウンロード ボタンクリック');
 			//ガイドライン抜きの画像を生成
 			if(imageIni.imageData !== null){
@@ -828,7 +828,7 @@
 			//}
 			alertmeg('ダウンロード処理終了');
 		});
-		$('#btnNewWindow').on("click", function() {
+		$('.btnNewWindow').on("click", function() {
 			//ガイドライン抜きの画像を生成
 			if(imageIni.imageData !== null){
 				alertmeg('合成作業開始中です。');
