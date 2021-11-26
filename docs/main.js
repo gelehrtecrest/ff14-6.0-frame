@@ -17,7 +17,7 @@
 	function loadImage (imageData, logoImageData, logoImageDataB, logoImageDataC, imageIni, imageIniB, imageIniC, guidelineflag){
 		
 		var baseImg = new Image();
-		baseImg.src = './frame.png';
+		baseImg.src = './frame2.png';
 		$('#alert').text('URL化しています');
 		img = new createjs.Bitmap(baseImg);
 		$('#result').attr({
@@ -125,7 +125,7 @@
 		//if(flag_b){
 			//$('#logourl').val('./default.png');
 			$('#guidelineurl').val('./guideline.svg');
-			loadlogocanvas('./frame.png', false);
+			loadlogocanvas('./frame2.png', false);
 		//}
 	
 		//ロゴURL変更時の処理
